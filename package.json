@@ -1,0 +1,31 @@
+{
+  "name": "wavecrest-rest-client",
+  "version": "0.0.1",
+  "description": "Client to access and operate Wavecrest basic API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "author": "Dinex SpA",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.4",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "chai": "^2.1.2",
+    "mocha": "^2.2.1",
+    "nock": "^8.0.0"
+  },
+  "homepage": "https://bitbucket.org/dinex/wavecrest-rest",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/dinex/wavecrest-rest.git"
+  },
+  "bugs": {
+    "url": "https://bitbucket.org/dinex/wavecrest-rest/issues"
+  }
+}
